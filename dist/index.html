@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/index.min.css">
+	<link rel="stylesheet" href="font_xc2n2faeiw/iconfont.css">
+	<script src="js/require.js" type="text/javascript" async="true" defer data-main = "js/main"></script>
+	<script>
+		window.onload = function() {
+			require(["index"],function (index) {
+				index.main();
+			})
+		}
+
+	</script>
+</head>
+<body class="iconfont">
+	<!-- head -->
+	<div class="head-box">
+		<div class="head">
+			<ul>
+				<li><a href="">查看购物车</a></li>
+				<span>|</span>
+				<li><a href="">移动版商城</a></li>
+				<span>|</span>
+				<li><a href="">论坛</a></li>
+			</ul>
+			<div class="head-right">
+				<a href="login.html">登陆</a>
+				<span>|</span>
+				<a href="registered.html">注册</a>
+				<p><i>&#xe610;</i>购物车（0）</p>
+				<div class="shopCar">购物车中还没有商品，赶紧选购吧！</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- nav -->
+	<div class="nav-box">
+		<div class="nav">
+			<div class="nav-top">
+				<a href="index.html"><img src="images/logo.gif" alt=""></a>
+				<ul>
+					<li><a href="goods.html" id = "intelligent">智能手机</a></li>
+					<li><a href="goods.html" id = "parts">手机配件</a></li>
+					<li><a href="" id = "community">社区</a></li>
+				</ul>
+				<form action="">
+					<input type="text" id = "pane">
+					<a href="" class="magnifier">&#xe6cf;</a>
+					<a href="" class="ad dazen" id="dazen">dazen</a>
+					<a href="" class="ad introduce" id="introduce">大神手机，大神品牌</a>
+				</form>
+				<div class="telphone" id="telphone" >
+					
+				</div>
+				<div class="community" id="communitys">
+					
+				</div>			
+			</div>
+			<div class="nav-content">
+				<div class="box-shuffling">
+					<div class="shuffling" id="shuffling">
+						
+					</div>
+					<ol>
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>
+				</div>	
+
+				<div class="nav-content-left" id="nav-content-left">
+					<a href="goods.html" id="intelligent2"><span class="span1">智能手机</span><span class="span2">></span></a>
+					<a href="goods.html" id = "telParts2"><span class="span3">手机配件</span><span class="span4">></span></a>
+				</div>
+				<div class = "telphone2" id="telphone2">
+					
+				</div>
+				<div class = "parts2" id="parts2">
+
+				</div>
+				
+
+			</div>
+			<div class="nav-footer">
+				<div class="nav-footer-left">
+					<ol>
+						<dd><a href="">&#xe602;</a></dd>
+						<dt><a href="">优惠活动</a></dt>
+					</ol>
+					<ol>
+						<dd><a href="">&#xe634;</a></dd>
+						<dt><a href="">企业团购</a></dt>
+					</ol>
+					<ol>
+						<dd><a href="">&#xe507;</a></dd>
+						<dt><a href="">积分商城</a></dt>
+					</ol>
+					<ol>
+						<dd><a href="">&#xe663;</a></dd>
+						<dt><a href="">祝福贺卡</a></dt>
+					</ol>
+					<ol>
+						<dd><a href="">&#xe645;</a></dd>
+						<dt><a href="">品牌商城</a></dt>
+					</ol>
+					<ol>
+						<dd><a href="">&#xe616;</a></dd>
+						<dt><a href="">选购中心</a></dt>
+					</ol>	
+				</div>
+				<div class="nav-footer-right">
+					<a href="" id="a1"><img src="images/1527556134800941912.jpg" alt=""></a>
+					<a href="" id="a2"><img src="images/1527555896374683847.jpg" alt=""></a>
+					<a href="" id="a3"><img src="images/1527556167217998101.jpg" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- content -->
+	<div class="content-box">
+		<div class="content">
+			<div class="content-top">
+				<div class="content-top-font">
+					<p>智能手机</p>
+					<div class="right">
+						<a href=""><span id="hot">热门</span></a>
+						<a href=""><span id="machine">手机</span></a>
+						<a href="goods.html" class="a3"><i>查看全部</i><aside>></aside></a>
+					</div>
+				</div>
+				<div class="content-top-img">
+					
+				</div>
+				
+			</div>
+			<div class="content-center">
+				<div class="content-center-font">
+					<p>手机配件</p>
+					<div class="center-right">
+						<a href=""><span>热门</span></a>
+						<a href=""><span>配件</span></a>
+						<a href="" class="a3"><i>查看全部</i><aside>></aside></a>
+					</div>
+				</div>
+				<div class="content-center-img">
+					
+				</div>
+			</div>
+			<div class="content-footer">
+				<div class="content-footer-font">
+					<p class="p1">视频</p>
+				</div>	
+				<div class="content-footer-video1">
+					<a href="video/index.mp4">
+						<img src="images/v-face1.jpg" alt="">
+					</a>
+					<p class="p2">神自不凡，我信仰自己</p>
+					<span>来自于对巅峰的勇敢挑战！</span>
+				</div>
+				<div class="content-footer-video2">
+					<a href="video/dazenplus.mp4">
+						<img src="images/v-face2.jpg" alt="">
+					</a>
+					<p class="p3">大神最新手机6Plus</p>
+					<span>官方视频功能介绍，外观展示</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- content2 -->
+	<div class="content2-box">
+		<div class="content2">
+			<div class="content2-top">
+				<p><i>&#xe62e;</i> 一小时快修服务</p><span>|</span>
+				<p><i>&#xe504;</i> 七天无理由退货</p><span>|</span>
+				<p><i>&#xe605;</i> 15天没费换货</p><span>|</span>
+				<p><i>&#xe69d;</i> 满150元包邮</p><span>|</span>
+				<p><i>&#xe645;</i> 多家售后网点</p>
+			</div>
+			<div class="content2-footer">
+				<ul class="ul1">
+					<li>帮助中心</li>
+					<li><a href="">配送方式</a></li>
+					<li><a href="">支付方式</a></li>
+					<li><a href="">购物指南</a></li>
+				</ul>
+				<ul class="ul2">
+					<li>服务支持</li>
+					<li><a href="">自助服务</a></li>
+					<li><a href="">售后政策</a></li>
+				</ul>
+				<ul class="ul3">
+					<li>大神之家</li>
+					<li><a href="">服务网点</a></li>
+					<li><a href="">大神之家</a></li>
+				</ul>
+				<ul class="ul4">
+					<li>关于大神</li>
+					<li><a href="">联系大神</a></li>
+					<li><a href="">加入大神</a></li>
+					<li><a href="">了解大神</a></li>
+				</ul>
+				<ul class="ul5">
+					<li>关注大神</li>
+					<li><a href="">官方微信</a></li>
+					<li><a href="">大神部落</a></li>
+					<li><a href="">新浪微博</a></li>
+				</ul>
+				<img class="img1" src="images/shugang_03_03.jpg" alt="">
+				<div class="content2-footer-right">
+					<p class="phone">400-8531-112</p>
+                	<p>周一至周日 8:00-18:00<br>（仅收市话费）</p>
+                	<a href=""><img src="images/T1uUG.XjtkXXcb2gzo-77-19.gif" alt="">售后</a>
+                	<a href="" class="a2"><img src="images/T1uUG.XjtkXXcb2gzo-77-19.gif" alt="">售前</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- bottom -->
+	<div class="bottom-box">
+		<div class="bottom">
+			<img src="images/Screenshot_2018-09-30-Dazen大神手机_03.jpg" alt="">
+			<div class="bottom-text">
+				<p class="sites">
+					<a href="http://#" target="_blank" title="DaZen大神">DaZen大神</a>
+				 </p>
+				<p class="sites2">
+					©<a href='#'>dazen.cn</a> 渝ICP备15006569号-4 粤公安备案号 50010802001738
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

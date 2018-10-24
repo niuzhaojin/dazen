@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单页</title>
+	<link rel="stylesheet" href="css/order.min.css">
+	<script src="js/require.js" type="text/javascript" async="true" defer data-main = "js/main6"></script>
+</head>
+<body>
+	<a href="index.html"><img id = "logo" src="images/logo.gif" alt=""></a>
+	<section class="cartMain">
+	<div class="cartMain_hd">
+		<ul class="order_lists cartTop">
+			<li class="list_chk">
+				<!--所有商品全选-->
+				<input type="checkbox" id="all" class="whole_check">
+				<label for="all"></label>
+				全选
+			</li>
+			<li class="list_con">商品信息</li>
+			<li class="list_info">商品参数</li>
+			<li class="list_price">单价</li>
+			<li class="list_amount">数量</li>
+			<li class="list_sum">金额</li>
+			<li class="list_op">操作</li>
+		</ul>
+	</div>
+
+	<div class="cartBox">
+		<div class="shop_info">
+			<div class="all_check">
+				<!--店铺全选-->
+				<input type="checkbox" id="shop_a" class="shopChoice">
+				<label for="shop_a" class="shop"></label>
+			</div>
+			<div class="shop_name">
+				<a href="index.html">DaZen大神手机</a>
+			</div>
+		</div>
+		<div class="order_content">
+			<ul class="order_lists">
+				<li class="list_chk">
+					<input type="checkbox" id="checkbox_2" class="son_check">
+					<label for="checkbox_2"></label>
+				</li>
+				<li class="list_con">
+					<div class="list_img"><a href="#"><img src="images/133_thumb_G_1527491803485.jpg" alt=""></a></div>
+					<div class="list_text"><a href="#">dazen/大神6plus手机4+128GB</a></div>
+				</li>
+				<li class="list_info">
+					<p>处理器：联发科MT6797</p>
+					<p>分辨率：2160*1080</p>
+				</li>
+				<li class="list_price">
+					<p class="price">￥1599</p>
+				</li>
+				<li class="list_amount">
+					<div class="amount_box">
+						<a href="#" class="reduce reSty">-</a>
+						<input type="text" value="1" class="sum">
+						<a href="#" class="plus">+</a>
+					</div>
+				</li>
+				<li class="list_sum">
+					<p class="sum_price">￥1599</p>
+				</li>
+				<li class="list_op">
+					<p class="del"><a href="#" class="delBtn">移除商品</a></p>
+				</li>
+			</ul>
+			<ul class="order_lists">
+				<li class="list_chk">
+					<input type="checkbox" id="checkbox_3" class="son_check">
+					<label for="checkbox_3"></label>
+				</li>
+				<li class="list_con">
+					<div class="list_img"><a href="#"><img src="images/124_thumb_G_1521187408993.jpg" alt=""></a></div>
+					<div class="list_text"><a href="#">大神6A全面屏手机2+16GB</a></div>
+				</li>
+				<li class="list_info">
+					<p>处理器：联发科MT6737</p>
+					<p>分辨率： 1440*720</p>
+				</li>
+				<li class="list_price">
+					<p class="price">￥699</p>
+				</li>
+				<li class="list_amount">
+					<div class="amount_box">
+						<a href="#" class="reduce reSty">-</a>
+						<input type="text" value="1" class="sum">
+						<a href="#" class="plus">+</a>
+					</div>
+				</li>
+				<li class="list_sum">
+					<p class="sum_price">￥699</p>
+				</li>
+				<li class="list_op">
+					<p class="del"><a href="#" class="delBtn">移除商品</a></p>
+				</li>
+			</ul>
+			<ul class="order_lists">
+				<li class="list_chk">
+					<input type="checkbox" id="checkbox_6" class="son_check">
+					<label for="checkbox_6"></label>
+				</li>
+				<li class="list_con">
+					<div class="list_img"><a href="#"><img src="images/110_thumb_G_1521188387390.jpg" alt=""></a></div>
+					<div class="list_text"><a href="#">dazen/大神 充电宝移动电源</a></div>
+				</li>
+				<li class="list_info">
+					<p>产品介绍：充电宝移动电源10000毫安，长续航，双USB输出，LED电量显示。</p>
+					<p>产品品牌：dazen/大神 充电宝移动电源</p>
+				</li>
+				<li class="list_price">
+					<p class="price">￥60</p>
+				</li>
+				<li class="list_amount">
+					<div class="amount_box">
+						<a href="#" class="reduce reSty">-</a>
+						<input type="text" value="1" class="sum">
+						<a href="#" class="plus">+</a>
+					</div>
+				</li>
+				<li class="list_sum">
+					<p class="sum_price">￥60</p>
+				</li>
+				<li class="list_op">
+					<p class="del"><a href="#" class="delBtn">移除商品</a></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	
+	<div class="bar-wrapper">
+		<div class="bar-right">
+			<div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
+			<div class="totalMoney">共计: <strong class="total_text">0.00</strong></div>
+			<div class="calBtn"><a href="#">结算</a></div>
+		</div>
+	</div>
+</section>
+<section class="model_bg"></section>
+<section class="my_model">
+	<p class="title">删除宝贝<span class="closeModel">X</span></p>
+	<p>您确认要删除该宝贝吗？</p>
+	<div class="opBtn"><a href="#" class="dialog-sure">确定</a><a href="#" class="dialog-close">关闭</a></div>
+</section>
+
+
+
+</body>
+</html>
